@@ -1,4 +1,5 @@
 # ETC
+db/*
 docs/*
 static/*
 *.bak
