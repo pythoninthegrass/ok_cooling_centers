@@ -13,6 +13,8 @@ pdf_dir = Path('../static')
 pdf_file = pdf_dir / 'oge_cooling_centers.pdf'
 csv_file = csv_dir / f"cooling_centers_{anno}.csv"
 
+# TODO: fix 'Maysville/Garvin County'
+# ! gets shifted to the left and 'Maysville Public Library' is in the 'city_county' column
 # parse pdf into html then into a string
 html_content = pdftotree.parse(str(pdf_file))
 html_io = StringIO(html_content)
