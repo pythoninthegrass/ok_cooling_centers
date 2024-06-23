@@ -22,7 +22,7 @@ source .venv/bin/activate
 python3 -m pip install -r requirements.txt
 
 # run script
-python3 makeMap.py
+./make_map.py
 
 # open map in browser
 open ./docs/index.html
