@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.2](https://github.com/pythoninthegrass/oklahoma_cooling_centers/compare/v1.0.1...v1.0.2) (2024-06-23)
+
+
+### Documentation
+
+* add csv file env var ([435d52b](https://github.com/pythoninthegrass/oklahoma_cooling_centers/commit/435d52b8b5bc06d967f0f144759ce25db9ae7436))
+
 ## [1.0.1](https://github.com/pythoninthegrass/oklahoma_cooling_centers/compare/v1.0.0...v1.0.1) (2024-06-23)
 
 
