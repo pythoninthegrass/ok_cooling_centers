@@ -45,7 +45,7 @@ brew link imagemagick@6 --force
 export BREW_PREFIX=$(brew --prefix)
 export MAGICK_HOME="$BREW_PREFIX/opt/imagemagick@6"
 ```
-* Run `gen_csv.py` to generate `./csv/cooling_centers_2024.csv`
+* Run `./bin/gen_csv.py` to generate `./csv/cooling_centers_2024.csv`
 
 ### Geocoding
 * Open a free Google Cloud Platform account and [setup the Geocoding API](https://developers.google.com/maps/documentation/geocoding/overview)
