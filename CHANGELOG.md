@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.1.0](https://github.com/pythoninthegrass/oklahoma_cooling_centers/compare/v1.0.2...v1.1.0) (2024-06-23)
+
+
+### Features
+
+* convert csv to sqlite ([126f1c6](https://github.com/pythoninthegrass/oklahoma_cooling_centers/commit/126f1c663c214179352ef85658583c2fb604c961))
+
+
+### Documentation
+
+* todo ([431c51b](https://github.com/pythoninthegrass/oklahoma_cooling_centers/commit/431c51b4e4a7b128004c81a92c9bd3435c180d7f))
+* Update README.md ([63ca5a3](https://github.com/pythoninthegrass/oklahoma_cooling_centers/commit/63ca5a3dcf87fda22e60e2ccab10990122f52565))
+
 ## [1.0.2](https://github.com/pythoninthegrass/oklahoma_cooling_centers/compare/v1.0.1...v1.0.2) (2024-06-23)
 
 
