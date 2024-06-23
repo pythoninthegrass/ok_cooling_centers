@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.0](https://github.com/pythoninthegrass/oklahoma_cooling_centers/compare/v1.2.0...v1.3.0) (2024-06-23)
+
+
+### Features
+
+* docker compose ([8e70e0b](https://github.com/pythoninthegrass/oklahoma_cooling_centers/commit/8e70e0b5cad461456fe987db9f129e55c844f69a))
+
 ## [1.2.0](https://github.com/pythoninthegrass/oklahoma_cooling_centers/compare/v1.1.0...v1.2.0) (2024-06-23)
 
 
