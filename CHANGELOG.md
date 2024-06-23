@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.0.1](https://github.com/pythoninthegrass/oklahoma_cooling_centers/compare/v1.0.0...v1.0.1) (2024-06-23)
+
+
+### Documentation
+
+* add .env.example ([7a6ba9a](https://github.com/pythoninthegrass/oklahoma_cooling_centers/commit/7a6ba9a853988567ee219f9daf6cc43c6622c6b3))
+* change camelCase ref ([497c93b](https://github.com/pythoninthegrass/oklahoma_cooling_centers/commit/497c93bf8874d5cee60ca300d48c613424d54b47))
+
 ## [1.0.0](https://github.com/pythoninthegrass/oklahoma_cooling_centers/compare/v1.0.0...v1.0.0) (2024-06-23)
 
 
