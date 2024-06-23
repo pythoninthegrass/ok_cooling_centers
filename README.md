@@ -54,9 +54,6 @@ export MAGICK_HOME="$BREW_PREFIX/opt/imagemagick@6"
 
 ## TODO
 * [Issues](https://github.com/alex-code4okc/oklahoma_cooling_centers_python/issues)
-* [asdf](https://asdf-vm.com/) + [poetry](https://python-poetry.org/)
+* Remove OG&E's Arkansas locations
+  * Maybe keep Fort Smith as that's close to the border at least
 * Open locations on map in [new tab](https://www.freecodecamp.org/news/how-to-open-a-link-in-a-new-tab/)
-* CI (GitHub Actions)
-  * e.g., [renovate](https://github.com/marketplace/renovate) or [dependabot](https://github.com/dependabot)
-* Rename `makeMap.py` to `main.py` or `make_map.py`
-  * Not a [class](https://peps.python.org/pep-0008/#package-and-module-names), sir
