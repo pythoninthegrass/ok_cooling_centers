@@ -1,4 +1,4 @@
-# Oklahoma Cooling Centers Python
+# Oklahoma Cooling Centers
 
 [Oklahoma Cooling Centers](https://alex-code4okc.github.io/oklahoma_cooling_centers_python/)
 
