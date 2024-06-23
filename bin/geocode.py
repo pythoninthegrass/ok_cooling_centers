@@ -7,7 +7,6 @@ from geopy.extra.rate_limiter import RateLimiter
 from geopy.exc import GeocoderTimedOut, GeocoderServiceError
 from pathlib import Path
 
-
 # env vars
 google_api_key = config("GOOGLE_API_KEY")
 csv_dir = Path('../csv')
