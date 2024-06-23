@@ -50,7 +50,7 @@ export MAGICK_HOME="$BREW_PREFIX/opt/imagemagick@6"
 ### Geocoding
 * Setup a free Google Cloud Platform account and [setup the Geocoding API](https://developers.google.com/maps/documentation/geocoding/overview)
 * Fill out `.env` with your API key
-* Run `geocode.py` append `latitude` and `longitude` to `./csv/cooling_centers_2024.csv`
+* Run `./bin/geocode.py` to append `latitude` and `longitude` to `./csv/cooling_centers_2024.csv`
 
 ## TODO
 * [Issues](https://github.com/alex-code4okc/oklahoma_cooling_centers_python/issues)
