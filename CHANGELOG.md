@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/pythoninthegrass/oklahoma_cooling_centers/compare/v1.1.0...v1.2.0) (2024-06-23)
+
+
+### Features
+
+* docker ([b7ead9d](https://github.com/pythoninthegrass/oklahoma_cooling_centers/commit/b7ead9deaf0cc23b6c75420baeb32bd5716647f6))
+
 ## [1.1.0](https://github.com/pythoninthegrass/oklahoma_cooling_centers/compare/v1.0.2...v1.1.0) (2024-06-23)
 
 
