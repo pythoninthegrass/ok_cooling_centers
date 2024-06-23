@@ -48,7 +48,7 @@ export MAGICK_HOME="$BREW_PREFIX/opt/imagemagick@6"
 * Run `gen_csv.py` to generate `./csv/cooling_centers_2024.csv`
 
 ### Geocoding
-* Setup a free Google Cloud Platform account and [setup the Geocoding API](https://developers.google.com/maps/documentation/geocoding/overview)
+* Open a free Google Cloud Platform account and [setup the Geocoding API](https://developers.google.com/maps/documentation/geocoding/overview)
 * Fill out `.env` with your API key
 * Run `./bin/geocode.py` to append `latitude` and `longitude` to `./csv/cooling_centers_2024.csv`
 
