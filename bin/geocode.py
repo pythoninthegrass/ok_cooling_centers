@@ -7,15 +7,15 @@ from geopy.extra.rate_limiter import RateLimiter
 from geopy.exc import GeocoderTimedOut, GeocoderServiceError
 from pathlib import Path
 
-GOOGLE_API_KEY = config("GOOGLE_API_KEY")
 
 # env vars
+google_api_key = config("GOOGLE_API_KEY")
 csv_dir = Path('../csv')
 csv_file = csv_dir / 'cooling_centers_2024.csv'
 
 
 def get_lat_long(address):
-    geolocator = GoogleV3(api_key=GOOGLE_API_KEY)
+    geolocator = GoogleV3(api_key=google_api_key)
     geocode = RateLimiter(geolocator.geocode, min_delay_seconds=0.1)
     try:
         location = geocode(address)
