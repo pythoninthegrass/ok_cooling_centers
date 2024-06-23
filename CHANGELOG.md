@@ -1,5 +1,16 @@
 # Changelog
 
+## [1.0.2](https://github.com/pythoninthegrass/oklahoma_cooling_centers/compare/v1.0.1...v1.0.2) (2024-06-23)
+
+
+### Documentation
+
+* add csv file env var ([435d52b](https://github.com/pythoninthegrass/oklahoma_cooling_centers/commit/435d52b8b5bc06d967f0f144759ce25db9ae7436))
+* add directory to script call ([4753050](https://github.com/pythoninthegrass/oklahoma_cooling_centers/commit/475305021bdabf11401e18d2c88c8bb1a2c6fcf8))
+* fix typo ([3347f4d](https://github.com/pythoninthegrass/oklahoma_cooling_centers/commit/3347f4d3f6678a78c01ba588eea0de17e1b25166))
+* synonym ([59af816](https://github.com/pythoninthegrass/oklahoma_cooling_centers/commit/59af8160029270a54ae5e435494cb503886306e4))
+* update readme ([76d75ea](https://github.com/pythoninthegrass/oklahoma_cooling_centers/commit/76d75ead9b9101126706201ab160e8bc16754c09))
+
 ## [1.0.1](https://github.com/pythoninthegrass/oklahoma_cooling_centers/compare/v1.0.0...v1.0.1) (2024-06-23)
 
 
