@@ -5,10 +5,11 @@ import pandas
 from decouple import config
 from pathlib import Path
 
-csv_dir = Path('./csv')
+base_dir = Path(__file__).resolve().parents[1]
+csv_dir = base_dir / 'csv'
 file_name = config('CSV_FILE', default='cooling_centers_2024.csv')
 csv_file = csv_dir / file_name
-docs_dir = Path('./docs')
+template_dir = base_dir / 'templates'
 
 df = pandas.read_csv(csv_file, header=0)
 

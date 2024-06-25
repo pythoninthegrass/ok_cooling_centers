@@ -1,6 +1,6 @@
 # ETC
 db/*
-docs/*
+templates/*
 static/*
 *.bak
 
