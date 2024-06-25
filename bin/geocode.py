@@ -8,8 +8,9 @@ from geopy.exc import GeocoderTimedOut, GeocoderServiceError
 from pathlib import Path
 
 # env vars
+base_dir = Path(__file__).resolve().parents[1]
 google_api_key = config("GOOGLE_API_KEY")
-csv_dir = Path('../csv')
+csv_dir = base_dir / 'csv'
 csv_file = csv_dir / 'cooling_centers_2024.csv'
 
 

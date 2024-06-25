@@ -5,10 +5,11 @@ import sqlite3
 from pathlib import Path
 from decouple import config
 
-csv_dir = Path('../csv')
+base_dir = Path(__file__).resolve().parents[1]
+csv_dir = base_dir / 'csv'
 file_name = config('CSV_FILE', default='cooling_centers_2024.csv')
 csv_file = csv_dir / file_name
-db_dir = Path('../db')
+db_dir = base_dir / 'db'
 db_file = db_dir / 'cooling_centers.db'
 
 db_file.parent.mkdir(parents=True, exist_ok=True)
