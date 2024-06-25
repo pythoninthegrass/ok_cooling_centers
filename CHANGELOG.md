@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.0](https://github.com/pythoninthegrass/ok_cooling_centers/compare/v1.3.0...v1.4.0) (2024-06-25)
+
+
+### Features
+
+* fastapi + strawberry ([36f8834](https://github.com/pythoninthegrass/ok_cooling_centers/commit/36f8834d62b061a093e92584699ed2952469b8b8))
+
 ## [1.3.0](https://github.com/pythoninthegrass/oklahoma_cooling_centers/compare/v1.2.0...v1.3.0) (2024-06-23)
 
 
