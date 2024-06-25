@@ -10,7 +10,7 @@ from app.schema import schema
 from pathlib import Path
 from strawberry.fastapi import GraphQLRouter
 
-templates_dir = Path(__file__).resolve().parents[1] / 'templates'
+templates_dir = Path(__file__).resolve().parents[1] / 'docs'
 templates = Jinja2Templates(directory=templates_dir)
 
 graphql_app = GraphQLRouter(schema)

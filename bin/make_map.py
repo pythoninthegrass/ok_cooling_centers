@@ -9,7 +9,7 @@ base_dir = Path(__file__).resolve().parents[1]
 csv_dir = base_dir / 'csv'
 file_name = config('CSV_FILE', default='cooling_centers_2024.csv')
 csv_file = csv_dir / file_name
-template_dir = base_dir / 'templates'
+template_dir = base_dir / 'docs'
 
 df = pandas.read_csv(csv_file, header=0)
 
