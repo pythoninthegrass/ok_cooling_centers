@@ -22,4 +22,4 @@ for city_county, location_name, address, phone, hours, latlon in zip(df['city_co
     lonF = float(lon)
     folium.Marker([latF, lonF], popup=f'<div><p>{location_name}</p><p>{address}</p><p>{phone}</p><p>{hours}</p></div>', tooltip=location_name).add_to(m)
 
-m.save(docs_dir / 'index.html')
+m.save(template_dir / 'index.html')

@@ -8,8 +8,9 @@ from pathlib import Path
 
 # env vars
 anno = datetime.now().year
-csv_dir = Path('../csv')
-pdf_dir = Path('../static')
+base_dir = Path(__file__).resolve().parents[1]
+csv_dir = base_dir / 'csv'
+pdf_dir = base_dir / 'static'
 pdf_file = pdf_dir / 'oge_cooling_centers.pdf'
 csv_file = csv_dir / f"cooling_centers_{anno}.csv"
 
